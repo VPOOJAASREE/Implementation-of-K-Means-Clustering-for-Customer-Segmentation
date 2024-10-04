@@ -7,13 +7,14 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-## Algorithm
-1. 1:Start.
+## Algorithm:
+
+1. Start.
 2. Data Preparation: Load and explore customer data.
 3. Determine Optimal Clusters: Use the Elbow Method to find the best number of clusters.
 4. Apply K Means Clustering: Perform clustering on customer data.
 5. Visualize Segmented Customers: Plot clustered data to visualize customer segments.
-6. End
+6. End.
 
 ## Program:
 ```
@@ -22,7 +23,6 @@ Program to implement the K Means Clustering for Customer Segmentation.
 Developed by: V.POOJAA SREE
 RegisterNumber: 212223040147
 */
-
 
 import pandas as pd 
 import matplotlib.pyplot as plt 
@@ -61,23 +61,26 @@ plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="magenta",
 plt.legend()
 plt.title("Customer Segments")
 
-
 ```
 
 ## Output:
 
 ![o1](https://github.com/user-attachments/assets/63a3e599-c5d7-48b5-8a06-ac3a9aa35ba6)
 
+
 ![o2](https://github.com/user-attachments/assets/1ee0367a-c04d-4a25-8267-7a72598ceeb2)
+
 
 ![o3](https://github.com/user-attachments/assets/1d94b2c1-816b-488c-aa84-cd7b7794db78)
 
+
 ![o4](https://github.com/user-attachments/assets/804f6695-3ada-4e70-85f6-43692a75dacc)
+
 
 ![o5](https://github.com/user-attachments/assets/84d88d32-7791-4fe2-b6fd-ce7b40387f64)
 
-![o6](https://github.com/user-attachments/assets/30dd9b45-1bb8-4a27-a43e-ff20ff161ddf)
 
+![o6](https://github.com/user-attachments/assets/30dd9b45-1bb8-4a27-a43e-ff20ff161ddf)
 
 
 
